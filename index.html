@@ -50,16 +50,23 @@
             background-color: #45a049;
         }
     </style>
+    <script>
+        function redirectToYouTube() {
+            // Replace 'VIDEO_ID' with the ID of your YouTube video
+            var videoId = 'VIDEO_ID';
+            window.location.href = 'https://www.youtube.com/watch?v=3tb3JQygARc' + videoId;
+        }
+    </script>
 </head>
 <body>
     <div class="container">
         <h1>Apology to Sravanthi</h1>
         <p>Dear Sravanthi,</p>
-        <p>I wanted to sincerely apologize for making you more uncomfortable about that today incident and i regret after few moments only. I value our friendship greatly and regret any hurt or inconvenience I may have caused.</p>
+        <p>I wanted to sincerely apologize for making you uncomfortable today. I regret my actions and any hurt or inconvenience I may have caused. Our friendship means a lot to me.</p>
         <p>Once again, I am truly sorry.</p>
         <p class="signature">Best regards,<br>Nagaraju</p>
         <div class="btn-container">
-            <a href="#" class="btn">Really sorry sravanthi </a>
+            <a href="#" class="btn" onclick="redirectToYouTube()">Read Apology</a>
         </div>
     </div>
 </body>
